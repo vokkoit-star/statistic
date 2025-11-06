@@ -1,33 +1,32 @@
-🚀 Streamlit Project
-Quick Start
-To launch the application, run:
+# 🚀 Streamlit Проект
 
-bash
+## Быстрый старт
+Для запуска приложения выполните команду:
+```bash
 streamlit run main.py
-🗄️ Database
-The project uses Supabase for data storage:
+```
 
-Platform: Supabase
+## 🗄️ База данных
+Проект использует Supabase для хранения данных:
+* Платформа: Supabase
+* Аккаунт: `vokkko.it@gmail.com`
+* Статус: База данных настроена и готова к использованию
 
-Account: vokkko.it@gmail.com
+## 📁 Структура проекта
+```
+├── main.py          # Основной файл приложения
+├── requirements.txt # Зависимости проекта
+└── README.md        # Документация
+```
 
-Status: Database is configured and ready to use
-
-📁 Project Structure
-text
-├── main.py          # Main application file
-├── requirements.txt # Project dependencies
-└── README.md        # Documentation
-⚙️ Setup
-Before running, make sure all dependencies are installed:
-
-bash
+## ⚙️ Установка
+Перед запуском убедитесь, что все зависимости установлены:
+```bash
 pip install -r requirements.txt
-🎯 Features
-⚡ Quick launch via Streamlit
+```
 
-🗃️ Reliable data storage with Supabase
-
-🔧 Simple configuration
-
-📊 Interactive interface
+## 🎯 Возможности
+* ⚡ Быстрый запуск через Streamlit
+* 🗃️ Надежное хранение данных с Supabase
+* 🔧 Простая конфигурация
+* 📊 Интерактивный интерфейс
